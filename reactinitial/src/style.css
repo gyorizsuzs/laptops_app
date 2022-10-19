@@ -52,6 +52,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  gap: 50px;
+}
+
+#outlined-basic {
+  font-size: 32px;
+  color: antiquewhite;
+}
+
+#outlined-basic-label {
+  color: antiquewhite;
 }
 
 .inner-container {

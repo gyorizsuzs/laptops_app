@@ -42,7 +42,6 @@ const App = () => {
           variant='outlined'
           sx={{
             width: 300,
-            color: 'white',
           }}
           type='text'
           onChange={handleSearch}
