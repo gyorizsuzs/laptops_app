@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import Input from '@mui/material/Input';
+import { TextField } from '@mui/material';
 import Button from '@mui/material/Button';
 
 import LoadingMask from './components/LoadingMask';
@@ -36,7 +36,17 @@ const App = () => {
       <h1 className='title'>Laptops</h1>
 
       <header>
-        <Input type='text' onChange={handleSearch} />
+        <TextField
+          id='outlined-basic'
+          label='Outlined'
+          variant='outlined'
+          sx={{
+            width: 300,
+            color: 'white',
+          }}
+          type='text'
+          onChange={handleSearch}
+        />
         <Button variant='outlined' onClick={sortByWeight}>
           Sort
         </Button>
