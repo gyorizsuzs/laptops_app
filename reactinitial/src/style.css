@@ -73,14 +73,14 @@ header {
   margin: 20px 40px;
   padding: 20px;
 
-  height: 250px;
-  width: 150px;
+  height: 280px;
+  width: 180px;
 
-  background-color: #1875d1dd;
+  background-color: rgba(255, 255, 255, 0.697);
 
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: larger;
-  color: antiquewhite;
+  color: #1876d1;
 
   border: 1px solid black;
   border-radius: 5px;

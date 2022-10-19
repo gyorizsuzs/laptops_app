@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import { Button } from '@mui/material';
+
 const Laptop = ({ laptop }) => {
   const [showDetails, setShowDetails] = useState(false);
 
@@ -14,9 +16,9 @@ const Laptop = ({ laptop }) => {
           <h3>Weight: {laptop.weight}</h3>
         </div>
       )}
-      <button onClick={() => setShowDetails(!showDetails)}>
+      <Button variant='contained' onClick={() => setShowDetails(!showDetails)}>
         {showDetails ? 'Show less' : 'Show more'}
-      </button>
+      </Button>
     </div>
   );
 };
